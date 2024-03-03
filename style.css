@@ -1,0 +1,119 @@
+
+    .banner{ 
+    
+  width: 100%;     
+  height: 40vh;    
+  margin: 0;       
+  object-fit: cover;  
+    }
+
+    .top-bar {
+  width: 100%;
+  height: 50px; 
+  background-color: #e35b81;
+  position: static;
+  top: auto; 
+}
+
+.button-container {
+  margin-right: 5%;
+  float: right;
+  display: flex; 
+  align-items: center; 
+  height: 100%;
+}
+
+.top-bar-button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0 10px;
+  
+
+  color: #ffffff; 
+  font-size: 16px; 
+  cursor: pointer; 
+  
+  &:hover{
+    color: rgb(0, 0, 0);
+ }
+ 
+}
+
+.user-picture{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    float: right;
+    align-self: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 25px;
+
+}
+.small-banner{
+    display: flex;
+    width: 100px;
+    height: 50px;
+    float: left;
+    margin-left: 40px;
+
+}
+.profile-pic{
+  width: 200px;
+  height: 200px;
+  margin-left: 50px;
+  margin-top: -100px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #ffffff;
+  border-radius: 50%;
+}
+.username{
+  font-style: oblique;
+  margin-bottom: 2px;
+}
+.image-text-container {
+  display: flex; 
+  align-items: flex-start;
+}
+.DOB{
+  margin-top: 3px;
+}
+.bio{
+  margin-left: 10px;
+  font-size: large;
+}
+
+.navigation-bar{
+ 
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-style: solid;
+  border-width: 0 0 1.5px 0;
+  margin: 65px;
+  overflow: hidden;
+}
+.navigation-buttons{
+  display: inline;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 350px;
+  height: 50px;
+  background-color: #ffffff;
+  border: none;
+  margin: 8%;
+  cursor: pointer;
+  transition: width 0.3s ease-in-out, height 0.3s ease-in-out;  /* ADDS SEXY TRANSITION */
+  
+  
+  &:hover{
+    color: rgb(255, 255, 255);
+    background-color: #4d4d4d;
+    width: 850px;
+    height: 150px;
+  }
+
+}
